@@ -1,0 +1,54 @@
+.openning-screen{
+    background: repeating-radial-gradient(rgba(34, 33, 61,0.75),rgba(34, 33, 61,0.75)),url('images/arka-paln.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+
+}
+
+.profile-foto{
+
+    border-radius: 100%;
+    border:5px solid white;
+}
+
+.profile-foto-frame{
+    padding: 15px;
+        width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header1{
+text-align: center;
+    color:rgb(234, 224, 255);
+}
+
+.header2{
+    text-align: center;
+        color:white;
+    }
+
+    .content-box{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+
+    }
+    .content{
+     
+        padding: 15px;
+        border-radius: 25px;
+        width: 800px;
+    }
+
+    .egitim-box{
+        display: flex;
+        align-items: center;
+        gap:15px;
+    }
