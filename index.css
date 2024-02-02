@@ -1,54 +1,95 @@
-.openning-screen{
-    background: repeating-radial-gradient(rgba(34, 33, 61,0.75),rgba(34, 33, 61,0.75)),url('images/arka-paln.avif');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    width: 100%;
-    min-height: 50vh;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px;
-
+* {
+  margin: 0;
+  padding: 0;
+  text-align: left !important;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
 }
 
-.profile-foto{
-
-    border-radius: 100%;
-    border:5px solid white;
+.openning-screen {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.9) 30%,
+      rgba(34, 33, 61, 0.75),
+      rgba(34, 33, 61, 0.75)
+    ),
+    url("images/arka-paln.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  min-height: 250px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
 }
 
-.profile-foto-frame{
-    padding: 15px;
-        width:100%;
-    display: flex;
-    justify-content: center;
+.profile-foto {
+  border-radius: 100%;
+  border: 5px solid white;
+  background-color: gray;
 }
 
-.header1{
-text-align: center;
-    color:rgb(234, 224, 255);
+.profile-foto-frame {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
-.header2{
-    text-align: center;
-        color:white;
-    }
+.profile-foto-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
 
-    .content-box{
-        display: flex;
-        justify-content: center;
-        padding: 15px;
+.header1 {
+  text-align: center;
+  color: rgb(234, 224, 255);
+}
 
-    }
-    .content{
-     
-        padding: 15px;
-        border-radius: 25px;
-        width: 800px;
-    }
+.header2 {
+  text-align: center;
+  color: white;
+}
 
-    .egitim-box{
-        display: flex;
-        align-items: center;
-        gap:15px;
-    }
+.content-box {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.content {
+  padding: 15px;
+  border-radius: 25px;
+  width: 800px;
+}
+
+.egitim-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.work-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.work-area {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
